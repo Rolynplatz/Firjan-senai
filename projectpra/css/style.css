@@ -1,0 +1,52 @@
+nav ul { 
+    /* Define o contêiner de navegação como um flexbox */
+    display: flex;
+    
+    /* Define a direção dos itens do flexbox para uma linha horizontal */
+    flex-direction: row;
+    
+    /* Remove margens e paddings padrão */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li { 
+    /* Remove o estilo padrão de lista (bolinhas) dos itens de lista */
+    list-style: none;
+    
+    /* Define a altura de cada item da lista */
+    height: 125px;
+    
+    /* Define o padding interno dos itens da lista, com espaçamento horizontal */
+    padding: 0 25px;
+}
+
+nav { 
+    /* Define a altura da barra de navegação */
+    height: 125px;
+    
+    /* Define a largura máxima da barra de navegação */
+    max-width: 1480px;
+    
+    /* Define a largura mínima da barra de navegação */
+    min-width: 1000px;
+    
+    /* Define a cor de fundo da barra de navegação */
+    background-color: black;
+}
+
+nav #logo img { 
+    /* Define a altura da imagem do logo dentro da navegação */
+    height: 75px;
+    
+    /* Define a margem ao redor da imagem do logo */
+    margin: 25px;
+    
+    /* Faz a imagem do logo flutuar para a esquerda */
+    float: left;
+}
+
+nav #main-menu { 
+    /* Faz o contêiner principal do menu de navegação flutuar para a direita */
+    float: right;
+}
