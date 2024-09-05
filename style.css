@@ -1,0 +1,160 @@
+body {
+    /* Remove a margem e o padding padrão do corpo da página */
+    margin: 0;
+    padding: 0;
+
+    /* Define a largura e a altura da página como 100% da tela */
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    /* Centraliza o menu horizontalmente e posiciona-o com relação ao topo da página */
+    margin: 0 auto;
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    min-width: 1080px; /* Define a largura mínima para evitar quebra em resoluções pequenas */
+}
+
+nav #main-menu-geral {
+   
+    
+    max-width: 1480px; /* Define um tamanho máximo menor */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    height: 125px; /* Altura do menu */
+    background-color: black; /* Cor de fundo preta */
+}
+
+
+nav ul {
+    /* Define um layout de flexbox para organizar os itens do menu em uma linha */
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    /* Remove o estilo de lista e define o espaçamento interno dos itens */
+    list-style: none;
+    height: 125px;
+    padding: 15px 25px;
+}
+
+nav {
+    /* Definindo a altura do menu */
+    height: 125px;
+    max-width: 100%;
+    min-width: 125px; /* Define uma largura mínima para o menu */
+    background-color: rgb(10, 4, 4); /* Cor de fundo */
+}
+
+nav ul li {
+    /* Ajusta o padding dos itens do menu */
+    padding: 15px 25px;
+}
+
+nav ul li span {
+    /* Estilo para um span dentro dos itens do menu */
+    float: left;
+    color: #868686; /* Cor do texto */
+    font-size: 11px; /* Tamanho da fonte */
+    margin: 58px 3px 53px 15px; /* Margens ao redor do texto */
+}
+
+nav ul li:hover {
+    /* Altera a cor de fundo quando o item do menu é hoverado */
+    background: #444;
+}
+
+nav ul li a:hover {
+    /* Efeito de hover no link do menu: sublinhado e mudança de cor */
+    text-decoration: line-through;
+    color: yellow;
+}
+
+nav ul li a {
+    /* Estilo dos links no menu */
+    color: #fff; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    text-transform: uppercase; /* Texto em maiúsculas */
+    text-decoration: none; /* Remove o sublinhado */
+    padding: 53px 25px; /* Padding dentro dos links */
+    float: left; /* Alinha os links à esquerda */
+    transition: all 1s; /* Transição suave para qualquer mudança */
+}
+
+nav #logo img {
+    /* Estilo do logotipo dentro do menu */
+    height: 75px; /* Define a altura da imagem do logo */
+    margin: 25px; /* Espaçamento ao redor da imagem */
+    float: left; /* Alinha a imagem à esquerda */
+}
+
+nav #main-menu {
+    /* Alinha o menu principal à direita */
+    float: right;
+}
+
+.montserrat, nav ul li a {
+    /* Define a fonte Montserrat para os itens do menu */
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    height: 600px;
+}
+header img {
+    /* Define a largura da imagem do cabeçalho para preencher 100% da tela */
+    width: 100%;
+    height: 600%; /* Erro: Um valor excessivo para a altura, o correto seria 600px */
+}
+
+header .slide {
+    /* Estilo para a imagem de slide no cabeçalho */
+    width: 100%; /* Preenche a largura total */
+    height: 600px; /* Altura fixa */
+    object-fit: cover; /* Garante que a imagem se ajuste ao contêiner sem distorções */
+    position: absolute; /* Posiciona a imagem no fundo */
+    z-index: -1; /* Coloca a imagem atrás de outros elementos */
+}
+
+header #slide-bar {
+    /* Estilo de uma barra de slides no cabeçalho */
+    margin-top: 320px; /* Espaçamento superior */
+    min-width: 280px; /* Largura mínima */
+    float: left; /* Alinha a barra à esquerda */
+    background-image: url(../img/yellow-bg.png); /* Adiciona uma imagem de fundo */
+    width: 625px; /* Define a largura */
+    padding: 0 0 0 60px;
+}
+header #txt_slide{
+    font-family:"Montserrat", sans-serif;
+    font-size: 14px;
+    margin-top: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+header #titulo_slide{
+    font-size: 50px;
+    color: white;
+    font-family:"Montserrat", sans-serif;
+    
+}
+header #titulo_slide h4{
+    margin: 30px 0px ;
+}
+header .seta{
+    float: left;
+}
+header .direita{
+    margin-left: 20px;
+}
+.separador{
+    width: 100%;
+    height: 300px;
+    background-image:url(../img/divider-dark.png) ;
+}
